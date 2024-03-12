@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(162, 226, 43);
+    width: 500px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+.circle-container .same{
+    border-radius: 50%;
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+}
+.circle-container{
+    border: 1px solid black ;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn{
+    height: 120px;
+    width: 80px;
+    cursor: pointer;
+    background-color: transparent;
+    color:black;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.same.prepare{
+   background-color: yellow;
+}
